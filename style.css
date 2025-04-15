@@ -34,7 +34,7 @@
     list-style: none;
 }
 
-a{
+.txtDecoNone{
     text-decoration: none;
 }
 /*###########################################*/
@@ -54,6 +54,25 @@ a{
 .ptb64{
     padding-top: 64px;
     padding-bottom: 64px;
+}
+/*########################*/
+        /*TITRE and Paragraphe*/
+h1{
+    color: orange;
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+b{
+    color: #091057;
 }
 /*########################*/
 /* WIDTH */
@@ -102,5 +121,23 @@ header>nav{
 }
 
 .bgblue{
-    background-color: #6b76eb;
+    background-color: #091057;
+}
+
+.black{
+    color: black;
+}
+
+.white{
+    color: white;
+}
+
+/* HERO */
+
+.hero{
+    background-color: #E4EAF8;
+}
+
+.para1{
+    width: 25%;
 }
