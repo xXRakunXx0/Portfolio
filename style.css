@@ -16,6 +16,10 @@
     justify-content: space-between;
     
 }
+.flexEnd{
+    justify-content: flex-end;
+}
+
 
 .container{
     max-width: 1200px;
@@ -64,7 +68,7 @@ h1{
 }
 
 h2{
-
+    color: orange;
 }
 
 h3{
@@ -132,12 +136,12 @@ header>nav{
     color: white;
 }
 
-/* HERO */
+/* Section Presantation */
 
 .hero{
     background-color: #E4EAF8;
 }
 
 .para1{
-    width: 25%;
+    width: 70%;
 }
