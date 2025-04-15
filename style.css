@@ -1,0 +1,71 @@
+/* Réinitialise le box model pour tous les éléments, 
+   et supprime les marges et paddings par défaut */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------ Flex ------ */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.textCenter{
+    text-align: center;
+}
+/*###########################################*/
+/* MARGIN/PADDING */
+.top20{
+    margin-top: 20px;
+}
+
+.top60{
+    margin-top: 60px;
+}
+
+.top100{
+    margin-top: 100px;
+    
+}
+.ptb64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+/*########################*/
+/* WIDTH */
+.w50{
+    width: 50%;
+}
+
+.w70{
+    width: 70%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w45{
+    width: 45%;
+}
+
+.w100{
+    width: 100%;
+}
+/*##############*/
