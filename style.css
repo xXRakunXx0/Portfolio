@@ -29,6 +29,14 @@
 .textCenter{
     text-align: center;
 }
+
+.plusnone{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
 /*###########################################*/
 /* MARGIN/PADDING */
 .top20{
@@ -69,3 +77,30 @@
     width: 100%;
 }
 /*##############*/
+
+/* HEADER */
+header{
+    padding: 20px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+header>nav{
+    margin: auto;
+}
+
+
+.imgHeader{
+    width: 100%;
+    height: 30px;
+}
+
+.bgred{
+    background-color: red;
+}
+
+.bgblue{
+    background-color: #6b76eb;
+}
